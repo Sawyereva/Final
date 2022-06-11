@@ -1,0 +1,31 @@
+.templatebox {
+    border-width: 2px;
+    border-style: solid;
+    padding: 1px;
+    position: absolute;
+    border-color: black;
+    background-color: #8eb2f472;
+}
+.tableaubackground {
+    background-image: url(../assets/images/fish.jpg);
+}
+/*this is a comment*/
+.header {
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    height: 40px;
+}
+.centercontent {
+    left: 5px;
+    right:5px;
+    top: 56px;
+    bottom: 56px;
+}
+.footer {
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 40px;
+}
+.center {text-align: center;}
