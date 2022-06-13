@@ -5,7 +5,7 @@
     padding: 1px;
     position: absolute;
     border-color: black;
-    background-color: #8eb2f472;
+    background-color: #99b6ec8e;
 }
 .tableaubackground {
     background-image: url(../assets/images/fish.jpg);
@@ -15,22 +15,24 @@
     right: 5px;
     top: 5px;
     height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20pt;
+    text-align: center;
 }
 .centercontent {
     left: 5px;
     right:5px;
     top: 56px;
-    bottom: 56px;
+    bottom: 41px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 18pt;
+    font-size: 12pt;
+    text-align: center;
 }
 .footer {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    height: 30px;
+    height: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 10pt;
     text-align: center;
@@ -51,8 +53,6 @@
 }
 .box4 {
     float: right;
-    right: 2px;
-    bottom: 2px;
 }
 .container,
 .container-fluid,
@@ -63,6 +63,7 @@
 .container-md,
 .container-sm {
   width: 100%;
+  height: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
