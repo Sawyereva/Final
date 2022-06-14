@@ -7,6 +7,7 @@ width: 100%;
 height: auto;
 }
 .center {text-align: center;}
+.justify {text-align: justify;}
 .bold {font-weight: bold;}
 .underline {text-decoration: underline;}
 .linkfont {font-size: medium;}
